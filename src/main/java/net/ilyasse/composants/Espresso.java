@@ -1,4 +1,12 @@
 package net.ilyasse.composants;
 
-public class Espresso {
+public class Espresso extends Boisson{
+    public Espresso(){
+        description+="Espresso";
+    }
+
+    @Override
+    public double cout() {
+        return 8;
+    }
 }

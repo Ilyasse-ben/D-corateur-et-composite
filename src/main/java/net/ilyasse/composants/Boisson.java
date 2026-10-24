@@ -1,4 +1,10 @@
 package net.ilyasse.composants;
 
-public class Boisson {
+public abstract class Boisson {
+    protected String description="Boisson ";
+
+    public String getDescription(){
+        return this.description;
+    }
+    public abstract double cout();
 }

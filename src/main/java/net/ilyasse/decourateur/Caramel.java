@@ -7,10 +7,10 @@ public class Caramel extends Decorateur{
         super(boisson);
     }
     public String getDescription(){
-        return boisson.getDescription()+ " au Chocolat";
+        return boisson.getDescription()+ " au Caramel";
     }
     @Override
     public double cout() {
-        return 1.2+boisson.cout();
+        return 3.5+boisson.cout();
     }
 }

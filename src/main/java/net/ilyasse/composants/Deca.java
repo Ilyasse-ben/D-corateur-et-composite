@@ -2,11 +2,11 @@ package net.ilyasse.composants;
 
 public class Deca extends Boisson{
     public Deca(){
-        description+="Sumatra";
+        description+="Deca";
     }
 
     @Override
     public double cout() {
-        return 10;
+        return 6;
     }
 }

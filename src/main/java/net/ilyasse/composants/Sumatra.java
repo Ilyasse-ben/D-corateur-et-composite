@@ -2,11 +2,11 @@ package net.ilyasse.composants;
 
 public class Sumatra extends Boisson{
     public Sumatra(){
-        description+="Espresso";
+        description+="Sumatra";
     }
 
     @Override
     public double cout() {
-        return 8;
+        return 10;
     }
 }
